@@ -1,0 +1,378 @@
+"use client";
+
+export default function About() {
+  return (
+    <div className="min-h-screen">
+      {/* Hero Section */}
+      <section className="bg-gradient-to-br from-orange-900 via-red-900 to-orange-900 text-white py-16 sm:py-20 md:py-24">
+        <div className="container mx-auto px-6 text-center">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-fade-in">
+            About Premium Fire Doors
+          </h1>
+          <p className="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
+            Leading India in fire safety solutions since 1995
+          </p>
+        </div>
+      </section>
+
+      {/* Company Story */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-6">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-5xl font-bold text-gray-800 mb-6">
+                Our Story
+              </h2>
+              <p className="text-lg text-gray-600 mb-4 leading-relaxed">
+                Premium Fire Doors was established in 1995 with a singular
+                vision: to provide the highest quality fire-rated doors and
+                passive fire protection solutions to protect lives and property.
+                What started as a small manufacturing unit in Bhiwandi has grown
+                into one of India's most trusted names in fire safety.
+              </p>
+              <p className="text-lg text-gray-600 mb-4 leading-relaxed">
+                Over three decades, we have installed over 50,000 fire doors
+                across commercial buildings, hospitals, hotels, industrial
+                facilities, and residential complexes throughout India. Our
+                commitment to innovation, quality, and customer satisfaction has
+                earned us numerous industry awards and certifications.
+              </p>
+              <p className="text-lg text-gray-600 leading-relaxed">
+                Today, we operate state-of-the-art manufacturing facilities
+                spanning 100,000 square feet in Maharashtra, employ over 200
+                skilled professionals, and serve clients across India and
+                neighboring countries. Every door we manufacture undergoes
+                rigorous testing to meet and exceed Indian and international
+                fire safety standards.
+              </p>
+            </div>
+            <div className="space-y-4">
+              <div className="bg-orange-50 p-6 rounded-lg border-l-4 border-orange-600">
+                <h3 className="text-3xl font-bold text-orange-600 mb-2">30+</h3>
+                <p className="text-gray-700 font-semibold">
+                  Years of Excellence
+                </p>
+              </div>
+              <div className="bg-amber-50 p-6 rounded-lg border-l-4 border-amber-600">
+                <h3 className="text-3xl font-bold text-amber-600 mb-2">
+                  50,000+
+                </h3>
+                <p className="text-gray-700 font-semibold">Doors Installed</p>
+              </div>
+              <div className="bg-red-50 p-6 rounded-lg border-l-4 border-red-600">
+                <h3 className="text-3xl font-bold text-red-600 mb-2">200+</h3>
+                <p className="text-gray-700 font-semibold">
+                  Expert Team Members
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Mission & Vision */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-6">
+          <div className="grid md:grid-cols-2 gap-12">
+            <div className="bg-white p-10 rounded-xl shadow-lg">
+              <div className="w-20 h-20 mb-6 rounded-full overflow-hidden">
+                <img
+                  src="https://www.sourcesplash.com/i/random?q=target-goal-mission"
+                  alt="Mission"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-3xl font-bold text-gray-800 mb-4">
+                Our Mission
+              </h3>
+              <p className="text-lg text-gray-600 leading-relaxed">
+                To deliver world-class fire protection solutions that save lives
+                and protect property, while maintaining the highest standards of
+                quality, innovation, and customer service. We strive to be the
+                most trusted partner in passive fire protection.
+              </p>
+            </div>
+            <div className="bg-white p-10 rounded-xl shadow-lg">
+              <div className="w-20 h-20 mb-6 rounded-full overflow-hidden">
+                <img
+                  src="https://www.sourcesplash.com/i/random?q=vision-future-telescope"
+                  alt="Vision"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-3xl font-bold text-gray-800 mb-4">
+                Our Vision
+              </h3>
+              <p className="text-lg text-gray-600 leading-relaxed">
+                To be India's leading fire door manufacturer and passive fire
+                protection provider, setting industry standards through
+                continuous innovation, sustainable practices, and unwavering
+                commitment to safety excellence.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Core Values */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-6">
+          <h2 className="text-5xl font-bold text-center text-gray-800 mb-16">
+            Our Core Values
+          </h2>
+          <div className="grid md:grid-cols-4 gap-8">
+            <div className="text-center">
+              <div className="bg-orange-100 w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 overflow-hidden">
+                <img
+                  src="https://www.sourcesplash.com/i/random?q=safety-protection-security"
+                  alt="Safety"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h4 className="text-xl font-bold text-gray-800 mb-3">
+                Safety First
+              </h4>
+              <p className="text-gray-600">
+                Every product designed with maximum safety as the top priority
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="bg-amber-100 w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 overflow-hidden">
+                <img
+                  src="https://www.sourcesplash.com/i/random?q=quality-excellence-diamond"
+                  alt="Quality"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h4 className="text-xl font-bold text-gray-800 mb-3">
+                Quality Excellence
+              </h4>
+              <p className="text-gray-600">
+                Uncompromising standards in materials and manufacturing
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="bg-red-100 w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 overflow-hidden">
+                <img
+                  src="https://www.sourcesplash.com/i/random?q=innovation-technology-rocket"
+                  alt="Innovation"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h4 className="text-xl font-bold text-gray-800 mb-3">
+                Innovation
+              </h4>
+              <p className="text-gray-600">
+                Continuously advancing fire protection technology
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="bg-orange-100 w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 overflow-hidden">
+                <img
+                  src="https://www.sourcesplash.com/i/random?q=trust-integrity-handshake"
+                  alt="Integrity"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h4 className="text-xl font-bold text-gray-800 mb-3">
+                Integrity
+              </h4>
+              <p className="text-gray-600">
+                Honest, transparent relationships with all stakeholders
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Indian Businesses Trust Us */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center text-gray-800 mb-6">
+            Why Indian Businesses Trust Us
+          </h2>
+          <p className="text-lg sm:text-xl text-gray-600 text-center mb-16 max-w-3xl mx-auto">
+            Thousands of leading Indian organizations rely on our fire safety solutions
+          </p>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow border-t-4 border-orange-600">
+              <div className="text-5xl mb-4">🏭</div>
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                Made in India Excellence
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                100% manufactured in our Maharashtra facility with strict quality control, supporting the Make in India initiative while delivering world-class products.
+              </p>
+            </div>
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow border-t-4 border-amber-600">
+              <div className="text-5xl mb-4">🤝</div>
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                Local Support & Service
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                Pan-India presence with regional offices in all major cities. Quick response time with local technicians available across the country.
+              </p>
+            </div>
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow border-t-4 border-red-600">
+              <div className="text-5xl mb-4">💰</div>
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                Best Value for Money
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                Premium quality at competitive prices. No import duties or international shipping costs. Flexible payment terms for Indian businesses.
+              </p>
+            </div>
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow border-t-4 border-orange-600">
+              <div className="text-5xl mb-4">📋</div>
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                Indian Standards Compliance
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                All products certified to BIS, NBC, and IS:3614 standards. Expert knowledge of Indian building codes and fire safety regulations.
+              </p>
+            </div>
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow border-t-4 border-amber-600">
+              <div className="text-5xl mb-4">🚚</div>
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                Fast Pan-India Delivery
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                Efficient logistics network covering all Indian states. Average delivery time of 2-3 weeks with real-time tracking and updates.
+              </p>
+            </div>
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow border-t-4 border-red-600">
+              <div className="text-5xl mb-4">⚡</div>
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                Emergency Support Available
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                24/7 emergency hotline for urgent requirements. Rapid response team for critical installations and repairs across India.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Certifications & Compliance */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-6">
+          <h2 className="text-5xl font-bold text-center text-gray-800 mb-6">
+            Certifications & Compliance
+          </h2>
+          <p className="text-xl text-gray-600 text-center mb-16 max-w-3xl mx-auto">
+            We maintain the highest industry certifications and regularly
+            undergo rigorous third-party testing
+          </p>
+          <div className="grid md:grid-cols-5 gap-8">
+            {[
+              "ISO 9001:2015",
+              "BIS Certified",
+              "IS:3614 Standard",
+              "NBC Compliant",
+              "CE Marked",
+              "LEED Certified",
+              "ASTM Standards",
+              "IFC Compliant",
+              "OHSAS Certified",
+              "BEE Star Rated",
+            ].map((cert, index) => (
+              <div
+                key={index}
+                className="bg-orange-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow text-center border-2 border-orange-200"
+              >
+                <div className="text-3xl mb-3 text-orange-600">✓</div>
+                <p className="font-semibold text-gray-800">{cert}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Manufacturing Facilities */}
+      <section className="py-20 bg-gradient-to-br from-orange-50 to-amber-50">
+        <div className="container mx-auto px-6">
+          <h2 className="text-5xl font-bold text-center text-gray-800 mb-16">
+            State-of-the-Art Facilities
+          </h2>
+          <div className="grid md:grid-cols-2 gap-12">
+            <div className="bg-white p-8 rounded-xl shadow-lg">
+              <h3 className="text-3xl font-bold text-gray-800 mb-4">
+                Manufacturing Excellence
+              </h3>
+              <ul className="space-y-4">
+                <li className="flex items-start">
+                  <span className="text-orange-600 font-bold mr-3">•</span>
+                  <span className="text-gray-600">
+                    100,000 sq ft climate-controlled manufacturing facility in
+                    Maharashtra
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-orange-600 font-bold mr-3">•</span>
+                  <span className="text-gray-600">
+                    Advanced CNC cutting and precision welding equipment
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-orange-600 font-bold mr-3">•</span>
+                  <span className="text-gray-600">
+                    Automated powder coating and finishing lines
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-orange-600 font-bold mr-3">•</span>
+                  <span className="text-gray-600">
+                    On-site fire testing laboratory
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-orange-600 font-bold mr-3">•</span>
+                  <span className="text-gray-600">
+                    Capacity to produce 500+ doors per week
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div className="bg-white p-8 rounded-xl shadow-lg">
+              <h3 className="text-3xl font-bold text-gray-800 mb-4">
+                Quality Control
+              </h3>
+              <ul className="space-y-4">
+                <li className="flex items-start">
+                  <span className="text-amber-600 font-bold mr-3">•</span>
+                  <span className="text-gray-600">
+                    100% inspection of all finished products
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-amber-600 font-bold mr-3">•</span>
+                  <span className="text-gray-600">
+                    Materials sourced from BIS-certified suppliers only
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-amber-600 font-bold mr-3">•</span>
+                  <span className="text-gray-600">
+                    Regular fire resistance testing every quarter
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-amber-600 font-bold mr-3">•</span>
+                  <span className="text-gray-600">
+                    ISO-certified quality management system
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-amber-600 font-bold mr-3">•</span>
+                  <span className="text-gray-600">
+                    Traceability of every component and batch
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}

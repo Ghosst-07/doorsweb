@@ -31,49 +31,49 @@ export default function Home() {
           <img
             src="https://www.sourcesplash.com/i/random?q=fire-door-safety-industrial"
             alt="Fire Safety Background"
-            className="w-full h-full object-cover opacity-40"
+            className="w-full h-full object-cover opacity-20"
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-br from-orange-900/70 via-orange-700/60 to-red-900/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-orange-900/80 via-orange-700/70 to-red-900/80"></div>
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl">
             <div className="inline-block bg-orange-600 text-white px-4 py-2 rounded-full text-sm font-bold mb-6 animate-pulse">
               India's Leading Fire Safety Brand Since 1995
             </div>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+            <h1 className="text-6xl md:text-7xl font-bold mb-6 leading-tight">
               Looking for <span className="text-amber-400">Safety Doors?</span>
             </h1>
-            <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl mb-8 text-gray-200 leading-relaxed">
+            <p className="text-2xl md:text-3xl mb-8 text-gray-200 leading-relaxed">
               Comprehensive fire door solutions under passive fire protection.
               Trusted by 5,000+ clients across India.
             </p>
-            <div className="flex flex-col sm:flex-row flex-wrap gap-4">
+            <div className="flex flex-wrap gap-4">
               <Link
                 href="/contact"
-                className="bg-amber-400 text-gray-900 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold text-base sm:text-lg hover:bg-amber-300 transition shadow-2xl hover:shadow-amber-400/50 inline-block text-center"
+                className="bg-amber-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-amber-300 transition shadow-2xl hover:shadow-amber-400/50 inline-block"
               >
                 Get Free Consultation
               </Link>
               <Link
                 href="/products"
-                className="bg-white text-orange-600 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold text-base sm:text-lg hover:bg-gray-100 transition inline-block border-2 border-white text-center"
+                className="bg-white text-orange-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition inline-block border-2 border-white"
               >
                 View Products
               </Link>
             </div>
 
             {/* Stats Bar */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-12 sm:mt-16">
-              <div className="text-center border-b sm:border-b-0 sm:border-r border-white border-opacity-30 pb-4 sm:pb-0">
-                <div className="text-3xl sm:text-4xl font-bold mb-2">30+</div>
+            <div className="grid grid-cols-3 gap-6 mt-16">
+              <div className="text-center border-r border-white border-opacity-30">
+                <div className="text-4xl font-bold mb-2">30+</div>
                 <div className="text-sm text-gray-300">Years Experience</div>
               </div>
-              <div className="text-center border-b sm:border-b-0 sm:border-r border-white border-opacity-30 pb-4 sm:pb-0">
-                <div className="text-3xl sm:text-4xl font-bold mb-2">50K+</div>
+              <div className="text-center border-r border-white border-opacity-30">
+                <div className="text-4xl font-bold mb-2">50K+</div>
                 <div className="text-sm text-gray-300">Doors Installed</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl sm:text-4xl font-bold mb-2">99.8%</div>
+                <div className="text-4xl font-bold mb-2">99.8%</div>
                 <div className="text-sm text-gray-300">Satisfaction Rate</div>
               </div>
             </div>
@@ -113,7 +113,7 @@ export default function Home() {
             <div className="order-2 lg:order-1">
               <div className="rounded-2xl h-[500px] overflow-hidden shadow-2xl">
                 <img
-                  src="https://www.sourcesplash.com/i/random?q=factory-manufacturing-industrial"
+                  src="https://media.istockphoto.com/id/1270325417/photo/factory-workers-checking-quality-of-industrial-metal-parts.jpg?s=612x612&w=0&k=20&c=e-TkhOw_DHw3nZy1I5dyTcDVEZI_vGxSIKd-RLxa9Xo="
                   alt="Manufacturing Facility"
                   className="w-full h-full object-cover"
                 />
@@ -123,10 +123,10 @@ export default function Home() {
               <div className="inline-block bg-orange-100 text-orange-600 px-4 py-2 rounded-full text-sm font-bold mb-4">
                 ABOUT US
               </div>
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-6 leading-tight">
+              <h2 className="text-5xl font-bold text-gray-800 mb-6 leading-tight">
                 India's Most Trusted Fire Door Manufacturer
               </h2>
-              <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-6 leading-relaxed">
+              <p className="text-xl text-gray-600 mb-6 leading-relaxed">
                 Since 1995, Premium Fire Doors has been at the forefront of
                 passive fire protection in India. We manufacture, test, and
                 install the highest quality fire-rated doors that save lives and
@@ -190,10 +190,10 @@ export default function Home() {
             <div className="inline-block bg-orange-100 text-orange-600 px-4 py-2 rounded-full text-sm font-bold mb-4">
               OUR PRODUCTS
             </div>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+            <h2 className="text-5xl font-bold text-gray-800 mb-6">
               Comprehensive Fire Door Solutions
             </h2>
-            <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               From steel fire doors to specialized acoustic and lead-lined
               options, we offer the complete range of safety doors
             </p>
@@ -298,10 +298,10 @@ export default function Home() {
             <div className="inline-block bg-gradient-to-r from-orange-600 to-red-600 text-white px-6 py-2 rounded-full text-sm font-bold mb-6 shadow-lg">
               WHY CHOOSE US
             </div>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-orange-400 via-amber-300 to-orange-500">
+            <h2 className="text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-orange-400 via-amber-300 to-orange-500">
               Why Choose Premium Fire Doors?
             </h2>
-            <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
               We don't just manufacture doors—we engineer safety solutions that
               protect what matters most
             </p>
@@ -456,10 +456,10 @@ export default function Home() {
             <div className="inline-block bg-orange-100 text-orange-600 px-4 py-2 rounded-full text-sm font-bold mb-4">
               HOW WE WORK
             </div>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+            <h2 className="text-5xl font-bold text-gray-800 mb-6">
               Our Streamlined Process
             </h2>
-            <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               From consultation to installation, we make fire safety simple and
               hassle-free
             </p>
@@ -525,7 +525,7 @@ export default function Home() {
             <div className="inline-block bg-orange-100 text-orange-600 px-4 py-2 rounded-full text-sm font-bold mb-4">
               TESTIMONIALS
             </div>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+            <h2 className="text-5xl font-bold text-gray-800 mb-6">
               What Our Clients Say
             </h2>
           </div>
@@ -603,10 +603,10 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-24 bg-gradient-to-r from-orange-600 to-red-700 text-white">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="text-5xl font-bold mb-6">
             Ready to Enhance Your Fire Safety?
           </h2>
-          <p className="text-lg sm:text-xl md:text-2xl mb-10 max-w-2xl mx-auto text-gray-200">
+          <p className="text-2xl mb-10 max-w-2xl mx-auto text-gray-200">
             Get a free consultation from our fire safety experts. We'll help you
             choose the perfect solution.
           </p>

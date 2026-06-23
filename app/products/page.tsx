@@ -48,7 +48,9 @@ export default function Products() {
                   <ul className="grid md:grid-cols-2 gap-3 mb-6">
                     {product.features.map((feature, fIndex) => (
                       <li key={fIndex} className="flex items-start text-sm">
-                        <span className="text-red-600 mr-2">✓</span>
+                        <svg className="w-4 h-4 text-red-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" strokeWidth="3" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                        </svg>
                         <span className="text-gray-600">{feature}</span>
                       </li>
                     ))}

@@ -135,7 +135,9 @@ export default function Home() {
               </p>
               <div className="grid grid-cols-2 gap-6 mb-8">
                 <div className="flex items-start">
-                  <span className="text-3xl mr-3">✓</span>
+                  <svg className="w-6 h-6 text-red-600 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" strokeWidth="3" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
                   <div>
                     <p className="font-bold text-gray-800">
                       UL & NFPA Certified
@@ -144,21 +146,27 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <span className="text-3xl mr-3">✓</span>
+                  <svg className="w-6 h-6 text-red-600 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" strokeWidth="3" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
                   <div>
                     <p className="font-bold text-gray-800">ISO 9001:2015</p>
                     <p className="text-gray-600 text-sm">Quality assured</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <span className="text-3xl mr-3">✓</span>
+                  <svg className="w-6 h-6 text-red-600 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" strokeWidth="3" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
                   <div>
                     <p className="font-bold text-gray-800">24/7 Support</p>
                     <p className="text-gray-600 text-sm">Always available</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <span className="text-3xl mr-3">✓</span>
+                  <svg className="w-6 h-6 text-red-600 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" strokeWidth="3" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
                   <div>
                     <p className="font-bold text-gray-800">Lifetime Warranty</p>
                     <p className="text-gray-600 text-sm">Peace of mind</p>
@@ -541,9 +549,11 @@ export default function Home() {
             ].map((cert, index) => (
               <div
                 key={index}
-                className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition text-center"
+                className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition flex flex-col items-center text-center"
               >
-                <div className="text-4xl mb-3 text-green-600">✓</div>
+                <svg className="w-8 h-8 text-green-600 mb-3" fill="none" stroke="currentColor" strokeWidth="3" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
                 <p className="font-bold text-gray-800 text-sm">{cert}</p>
               </div>
             ))}

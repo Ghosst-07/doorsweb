@@ -348,22 +348,6 @@ export default function Contact() {
           </div>
         </div>
       </section>
-
-      {/* Map Section */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">
-            Visit Our Showroom
-          </h2>
-          <div className="rounded-2xl overflow-hidden shadow-xl h-96">
-            <img
-              src="https://www.sourcesplash.com/i/random?q=factory-building-industrial"
-              alt="Our Facility"
-              className="w-full h-full object-cover"
-            />
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

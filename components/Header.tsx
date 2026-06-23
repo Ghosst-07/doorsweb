@@ -8,39 +8,39 @@ export default function Header() {
   return (
     <header>
       {/* Top Info Bar */}
-      <div className="bg-gradient-to-r from-orange-900 via-orange-800 to-red-900 text-white py-2">
+      <div className="bg-gradient-to-r from-gray-900 via-gray-800 to-red-950 text-white py-2">
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap justify-between items-center text-sm">
             <div className="flex items-center space-x-6">
               <a
-                href="tel:+912240123456"
-                className="hover:text-orange-200 transition flex items-center"
+                href="tel:+919015568648"
+                className="hover:text-red-200 transition flex items-center"
               >
                 <span className="mr-2">📞</span>
-                <span className="hidden sm:inline">+91 22 4012 3456</span>
+                <span className="hidden sm:inline">+91 90155 68648 / +91 94671 88176</span>
               </a>
               <a
-                href="mailto:info@premiumfiredoors.in"
-                className="hover:text-orange-200 transition flex items-center"
+                href="mailto:biharisteelsolutionspvtltd@gmail.com"
+                className="hover:text-red-200 transition flex items-center"
               >
                 <span className="mr-2">✉️</span>
                 <span className="hidden md:inline">
-                  info@premiumfiredoors.in
+                  biharisteelsolutionspvtltd@gmail.com
                 </span>
               </a>
             </div>
             <div className="flex items-center space-x-4">
-              <span className="hidden lg:inline text-orange-200">
+              <span className="hidden lg:inline text-red-200">
                 🕒 Mon-Sat: 9AM-7PM
               </span>
               <div className="flex space-x-3">
-                <a href="#" className="hover:text-orange-200 transition">
+                <a href="#" className="hover:text-red-200 transition">
                   Facebook
                 </a>
-                <a href="#" className="hover:text-orange-200 transition">
+                <a href="#" className="hover:text-red-200 transition">
                   LinkedIn
                 </a>
-                <a href="#" className="hover:text-orange-200 transition">
+                <a href="#" className="hover:text-red-200 transition">
                   Twitter
                 </a>
               </div>
@@ -55,15 +55,19 @@ export default function Header() {
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
             <Link href="/" className="flex items-center space-x-3">
-              <div className="bg-gradient-to-br from-orange-600 to-red-700 p-3 rounded-lg">
-                <span className="text-white font-bold text-2xl">🚪</span>
+              <div className="relative h-14 w-14 overflow-hidden rounded-lg border border-gray-100 flex items-center justify-center bg-white shadow-sm">
+                <img
+                  src="/bss-logo.jpg"
+                  alt="BSS Logo"
+                  className="object-contain max-h-full max-w-full"
+                />
               </div>
               <div>
-                <div className="text-2xl font-bold bg-gradient-to-r from-orange-600 to-red-700 bg-clip-text text-transparent">
-                  Premium Fire Doors
+                <div className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-gray-900 to-red-700 bg-clip-text text-transparent">
+                  Bihari Steel Solutions
                 </div>
-                <div className="text-xs text-gray-500 font-semibold">
-                  Safety Through Excellence Since 1995
+                <div className="text-[10px] sm:text-xs text-gray-500 font-semibold uppercase tracking-wider">
+                  Laser Cutting | CNC Precision | Endless Solutions
                 </div>
               </div>
             </Link>

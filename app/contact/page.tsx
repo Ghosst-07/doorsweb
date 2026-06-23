@@ -156,13 +156,13 @@ export default function Contact() {
               {/* Main Office */}
               <div className="bg-white p-8 rounded-2xl shadow-xl">
                 <h3 className="text-3xl font-bold text-gray-800 mb-6">
-                  Corporate Headquarters
+                  Our Offices & Contacts
                 </h3>
-                <div className="space-y-4">
+                <div className="space-y-5">
                   <div className="flex items-start">
-                    <div className="bg-orange-100 p-3 rounded-lg mr-4 flex items-center justify-center">
+                    <div className="bg-red-100 p-3 rounded-lg mr-4 flex items-center justify-center">
                       <svg
-                        className="w-6 h-6 text-orange-600"
+                        className="w-6 h-6 text-red-600"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -182,20 +182,49 @@ export default function Contact() {
                       </svg>
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-800">Address</p>
+                      <p className="font-semibold text-gray-800">Corporate Office Address</p>
                       <p className="text-gray-600">
-                        Plot No. 45, MIDC Industrial Area
+                        Ward-27, Haziapur, Gopalganj
                         <br />
-                        Bhiwandi, Maharashtra 421302
-                        <br />
-                        India
+                        Bihar - 841428
                       </p>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <div className="bg-orange-100 p-3 rounded-lg mr-4 flex items-center justify-center">
+                    <div className="bg-red-100 p-3 rounded-lg mr-4 flex items-center justify-center">
                       <svg
-                        className="w-6 h-6 text-orange-600"
+                        className="w-6 h-6 text-red-600"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                        />
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                        />
+                      </svg>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-gray-800">Registered Office Address</p>
+                      <p className="text-gray-600">
+                        Kapleshwar Sthan Kharoua, P.S Rahika
+                        <br />
+                        Madhubani, Bihar - 847238
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="bg-red-100 p-3 rounded-lg mr-4 flex items-center justify-center">
+                      <svg
+                        className="w-6 h-6 text-red-600"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -211,16 +240,16 @@ export default function Contact() {
                     <div>
                       <p className="font-semibold text-gray-800">Phone</p>
                       <p className="text-gray-600">
-                        +91 22 4012 3456
+                        +91 90155 68648
                         <br />
-                        +91 22 4012 3457
+                        +91 94671 88176
                       </p>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <div className="bg-orange-100 p-3 rounded-lg mr-4 flex items-center justify-center">
+                    <div className="bg-red-100 p-3 rounded-lg mr-4 flex items-center justify-center">
                       <svg
-                        className="w-6 h-6 text-orange-600"
+                        className="w-6 h-6 text-red-600"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -236,9 +265,7 @@ export default function Contact() {
                     <div>
                       <p className="font-semibold text-gray-800">Email</p>
                       <p className="text-gray-600">
-                        info@premiumfiredoors.in
-                        <br />
-                        sales@premiumfiredoors.in
+                        biharisteelsolutionspvtltd@gmail.com
                       </p>
                     </div>
                   </div>
@@ -314,7 +341,7 @@ export default function Contact() {
                   24-hour hotline:
                 </p>
                 <p className="text-3xl font-bold text-red-600">
-                  +91 98765 43210
+                  +91 90155 68648
                 </p>
               </div>
             </div>

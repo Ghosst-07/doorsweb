@@ -7,10 +7,10 @@ export default function About() {
       <section className="bg-gradient-to-br from-orange-900 via-red-900 to-orange-900 text-white py-16 sm:py-20 md:py-24">
         <div className="container mx-auto px-6 text-center">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-fade-in">
-            About Premium Fire Doors
+            About Bihari Steel Solutions
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
-            Leading India in fire safety solutions since 1995
+            Leading India in high-precision steel fabrication & endless solutions
           </p>
         </div>
       </section>
@@ -24,40 +24,27 @@ export default function About() {
                 Our Story
               </h2>
               <p className="text-lg text-gray-600 mb-4 leading-relaxed">
-                Premium Fire Doors was established in 1995 with a singular
-                vision: to provide the highest quality fire-rated doors and
-                passive fire protection solutions to protect lives and property.
-                What started as a small manufacturing unit in Bhiwandi has grown
-                into one of India's most trusted names in fire safety.
+                Bihari Steel Solutions Private Limited was incorporated in 2026 with a vision to provide world-class custom metal fabrication, CNC precision engineering, and specialized steel solutions. Our mission is to deliver endless solutions in steel fabrication, from high-security fire doors to electrical cable trays and automotive body parts.
               </p>
               <p className="text-lg text-gray-600 mb-4 leading-relaxed">
-                Over three decades, we have installed over 50,000 fire doors
-                across commercial buildings, hospitals, hotels, industrial
-                facilities, and residential complexes throughout India. Our
-                commitment to innovation, quality, and customer satisfaction has
-                earned us numerous industry awards and certifications.
+                Operating from our advanced centers in Madhubani and Gopalganj, Bihar, we use state-of-the-art fiber laser cutting and automated CNC folding technologies. This enables us to achieve unmatched accuracy and rapid production rates.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Today, we operate state-of-the-art manufacturing facilities
-                spanning 100,000 square feet in Maharashtra, employ over 200
-                skilled professionals, and serve clients across India and
-                neighboring countries. Every door we manufacture undergoes
-                rigorous testing to meet and exceed Indian and international
-                fire safety standards.
+                Our commitment to engineering excellence, prompt delivery, and complete compliance with national and international standards has positioned us as a trusted fabrication partner for industrial, commercial, and automotive clients across India.
               </p>
             </div>
             <div className="space-y-4">
-              <div className="bg-orange-50 p-6 rounded-lg border-l-4 border-orange-600">
-                <h3 className="text-3xl font-bold text-orange-600 mb-2">30+</h3>
+              <div className="bg-red-50 p-6 rounded-lg border-l-4 border-red-600">
+                <h3 className="text-3xl font-bold text-red-600 mb-2">100%</h3>
                 <p className="text-gray-700 font-semibold">
-                  Years of Excellence
+                  CNC Precision & Accuracy
                 </p>
               </div>
               <div className="bg-amber-50 p-6 rounded-lg border-l-4 border-amber-600">
                 <h3 className="text-3xl font-bold text-amber-600 mb-2">
-                  50,000+
+                  10,000+
                 </h3>
-                <p className="text-gray-700 font-semibold">Doors Installed</p>
+                <p className="text-gray-700 font-semibold">Parts Fabricated</p>
               </div>
               <div className="bg-red-50 p-6 rounded-lg border-l-4 border-red-600">
                 <h3 className="text-3xl font-bold text-red-600 mb-2">200+</h3>
@@ -201,7 +188,7 @@ export default function About() {
                 Made in India Excellence
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                100% manufactured in our Maharashtra facility with strict quality control, supporting the Make in India initiative while delivering world-class products.
+                100% manufactured in our Bihar facilities with strict quality control, supporting the Make in India initiative while delivering world-class products.
               </p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow border-t-4 border-amber-600">
@@ -303,8 +290,7 @@ export default function About() {
                 <li className="flex items-start">
                   <span className="text-orange-600 font-bold mr-3">•</span>
                   <span className="text-gray-600">
-                    100,000 sq ft climate-controlled manufacturing facility in
-                    Maharashtra
+                    State-of-the-art climate-controlled manufacturing facilities in Madhubani and Gopalganj, Bihar
                   </span>
                 </li>
                 <li className="flex items-start">

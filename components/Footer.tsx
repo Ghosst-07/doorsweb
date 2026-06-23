@@ -8,17 +8,18 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Company Info */}
           <div>
-            <div className="flex items-center space-x-2 mb-6">
-              <div className="bg-orange-600 p-2 rounded">
-                <span className="text-2xl">🚪</span>
+            <div className="flex items-center space-x-3 mb-6">
+              <div className="bg-white p-1 rounded overflow-hidden h-12 w-12 flex items-center justify-center shadow-md">
+                <img src="/bss-logo.jpg" alt="BSS Logo" className="object-contain max-h-full max-w-full" />
               </div>
-              <div className="text-xl font-bold">Premium Fire Doors</div>
+              <div className="text-xl font-bold">Bihari Steel Solutions</div>
             </div>
-            <p className="text-gray-400 mb-4 leading-relaxed">
-              Leading provider of fire-rated doors and passive fire protection
-              solutions in India since 1995. Trusted by thousands of customers
-              nationwide.
+            <p className="text-gray-400 mb-4 leading-relaxed text-sm">
+              Bihari Steel Solutions Private Limited is a premier high-tech enterprise specializing in laser cutting, CNC precision engineering, fire doors, cable trays, and automotive body parts.
             </p>
+            <div className="text-xs text-red-500 font-mono mb-4">
+              CIN: U25111BR2026PTC085757
+            </div>
             <div className="flex space-x-4">
               <a
                 href="#"
@@ -124,40 +125,42 @@ export default function Footer() {
           {/* Contact Info */}
           <div>
             <h4 className="font-bold text-lg mb-6">Contact Us</h4>
-            <ul className="space-y-3 text-gray-400">
+            <ul className="space-y-4 text-sm text-gray-400">
               <li className="flex items-start">
                 <span className="mr-2">📍</span>
                 <span>
-                  Plot No. 45, MIDC Industrial Area,
+                  <strong>Corporate Office:</strong>
                   <br />
-                  Bhiwandi, Maharashtra 421302
+                  Ward-27, Haziapur, Gopalganj,
+                  <br />
+                  Bihar - 841428
                 </span>
               </li>
-              <li className="flex items-center">
+              <li className="flex items-start">
+                <span className="mr-2">📍</span>
+                <span>
+                  <strong>Registered Address:</strong>
+                  <br />
+                  Kapleshwar Sthan Kharoua, P.S Rahika,
+                  <br />
+                  Madhubani, Bihar - 847238
+                </span>
+              </li>
+              <li className="flex items-start">
                 <span className="mr-2">📞</span>
-                <a
-                  href="tel:+912240123456"
-                  className="hover:text-white transition"
-                >
-                  +91 22 4012 3456
-                </a>
+                <div>
+                  <a href="tel:+919015568648" className="hover:text-white transition block">+91 90155 68648</a>
+                  <a href="tel:+919467188176" className="hover:text-white transition block">+91 94671 88176</a>
+                </div>
               </li>
               <li className="flex items-center">
                 <span className="mr-2">✉️</span>
                 <a
-                  href="mailto:info@premiumfiredoors.in"
-                  className="hover:text-white transition"
+                  href="mailto:biharisteelsolutionspvtltd@gmail.com"
+                  className="hover:text-white transition break-all"
                 >
-                  info@premiumfiredoors.in
+                  biharisteelsolutionspvtltd@gmail.com
                 </a>
-              </li>
-              <li className="flex items-start">
-                <span className="mr-2">🚨</span>
-                <span>
-                  24/7 Emergency:
-                  <br />
-                  +91 98765 43210
-                </span>
               </li>
             </ul>
           </div>
@@ -182,7 +185,7 @@ export default function Footer() {
       <div className="bg-black py-6">
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
-            <p>© 2026 Premium Fire Doors. All Rights Reserved.</p>
+            <p>© 2026 Bihari Steel Solutions Private Limited. All Rights Reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="hover:text-white transition">
                 Privacy Policy

@@ -15,29 +15,26 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Premium Fire Doors India - Leading Fire Safety Solutions Since 1995",
+  title: "Bihari Steel Solutions - Laser Cutting, CNC Precision & Endless Solutions",
   description:
-    "India's most trusted fire door manufacturer. Steel fire doors, wooden fire doors, lead-lined doors, clean room doors. BIS certified, ISO 9001:2015. 50,000+ installations across India. 24/7 support.",
+    "Bihari Steel Solutions Private Limited is a premier provider of laser cutting, CNC precision engineering, fire doors, cable trays, automotive body parts, and custom steel fabrication services in India.",
   keywords: [
-    "fire doors India",
+    "Bihari Steel Solutions",
+    "laser cutting Bihar",
+    "CNC precision Madhubani",
+    "steel fire doors Bihar",
+    "cable trays Gopalganj",
+    "automotive body parts Bihar",
+    "steel fabrication solutions India",
+    "custom steel engineering",
+    "industrial steel fabrication",
     "fire rated doors",
-    "steel fire doors",
-    "wooden fire doors",
-    "fire safety doors",
-    "BIS certified fire doors",
-    "NBC compliant doors",
-    "fire door manufacturer India",
     "passive fire protection",
-    "lead lined doors",
-    "clean room doors",
-    "acoustic doors",
-    "fire doors Maharashtra",
-    "fire doors Mumbai",
-    "fire doors Bhiwandi",
+    "custom metal doors",
   ],
-  authors: [{ name: "Premium Fire Doors" }],
-  creator: "Premium Fire Doors",
-  publisher: "Premium Fire Doors",
+  authors: [{ name: "Bihari Steel Solutions Private Limited" }],
+  creator: "Bihari Steel Solutions Private Limited",
+  publisher: "Bihari Steel Solutions Private Limited",
   robots: {
     index: true,
     follow: true,
@@ -49,17 +46,17 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://premiumfiredoors.in",
-    title: "Premium Fire Doors India - Leading Fire Safety Solutions Since 1995",
+    url: "https://biharisteelsolutions.com",
+    title: "Bihari Steel Solutions - Laser Cutting, CNC Precision & Endless Solutions",
     description:
-      "India's most trusted fire door manufacturer. 50,000+ installations, BIS certified, ISO 9001:2015. Steel, wooden, lead-lined & clean room doors.",
-    siteName: "Premium Fire Doors",
+      "Premier provider of laser cutting, CNC precision engineering, fire doors, cable trays, body parts, and custom steel fabrication services in India.",
+    siteName: "Bihari Steel Solutions",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Premium Fire Doors India - Fire Safety Solutions",
+    title: "Bihari Steel Solutions - Laser Cutting, CNC Precision & Endless Solutions",
     description:
-      "India's most trusted fire door manufacturer. 50,000+ installations across India. BIS certified, 24/7 support.",
+      "Premier provider of laser cutting, CNC precision, and custom steel solutions including fire doors, cable trays, and body parts.",
   },
 };
 

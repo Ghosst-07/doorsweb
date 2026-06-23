@@ -9,7 +9,7 @@ export default function Home() {
     {
       name: "Rajesh Khanna",
       company: "Shapoorji Pallonji Construction",
-      text: "Premium Fire Doors has been our go-to supplier for 10+ years. Their quality is unmatched and customer service is exceptional. Every project delivered on time.",
+      text: "Bihari Steel Solutions has been our go-to supplier for all high-precision fabrication. Their laser cutting is incredibly accurate, and project delivery is always on schedule.",
     },
     {
       name: "Dr. Priya Sharma",
@@ -37,15 +37,15 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-br from-orange-900/80 via-orange-700/70 to-red-900/80"></div>
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl">
-            <div className="inline-block bg-orange-600 text-white px-4 py-2 rounded-full text-sm font-bold mb-6 animate-pulse">
-              India's Leading Fire Safety Brand Since 1995
+            <div className="inline-block bg-red-600 text-white px-4 py-2 rounded-full text-sm font-bold mb-6 animate-pulse">
+              India's Premier High-Precision Fabrication Brand
             </div>
             <h1 className="text-6xl md:text-7xl font-bold mb-6 leading-tight">
-              Looking for <span className="text-amber-400">Safety Doors?</span>
+              Laser Cutting & <span className="text-amber-400">Steel Solutions</span>
             </h1>
             <p className="text-2xl md:text-3xl mb-8 text-gray-200 leading-relaxed">
-              Comprehensive fire door solutions under passive fire protection.
-              Trusted by 5,000+ clients across India.
+              CNC Precision, Laser Cutting, and Custom Metal Fabrication.
+              Endless Solutions for Fire Doors, Cable Trays, and Body Parts.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -56,7 +56,7 @@ export default function Home() {
               </Link>
               <Link
                 href="/products"
-                className="bg-white text-orange-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition inline-block border-2 border-white"
+                className="bg-white text-red-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition inline-block border-2 border-white"
               >
                 View Products
               </Link>
@@ -65,12 +65,12 @@ export default function Home() {
             {/* Stats Bar */}
             <div className="grid grid-cols-3 gap-6 mt-16">
               <div className="text-center border-r border-white border-opacity-30">
-                <div className="text-4xl font-bold mb-2">30+</div>
-                <div className="text-sm text-gray-300">Years Experience</div>
+                <div className="text-4xl font-bold mb-2">100%</div>
+                <div className="text-sm text-gray-300">CNC Precision</div>
               </div>
               <div className="text-center border-r border-white border-opacity-30">
-                <div className="text-4xl font-bold mb-2">50K+</div>
-                <div className="text-sm text-gray-300">Doors Installed</div>
+                <div className="text-4xl font-bold mb-2">10K+</div>
+                <div className="text-sm text-gray-300">Parts Fabricated</div>
               </div>
               <div className="text-center">
                 <div className="text-4xl font-bold mb-2">99.8%</div>
@@ -120,24 +120,17 @@ export default function Home() {
               </div>
             </div>
             <div className="order-1 lg:order-2">
-              <div className="inline-block bg-orange-100 text-orange-600 px-4 py-2 rounded-full text-sm font-bold mb-4">
+              <div className="inline-block bg-red-100 text-red-600 px-4 py-2 rounded-full text-sm font-bold mb-4">
                 ABOUT US
               </div>
               <h2 className="text-5xl font-bold text-gray-800 mb-6 leading-tight">
-                India's Most Trusted Fire Door Manufacturer
+                India's Premier High-Tech Steel Solutions Partner
               </h2>
               <p className="text-xl text-gray-600 mb-6 leading-relaxed">
-                Since 1995, Premium Fire Doors has been at the forefront of
-                passive fire protection in India. We manufacture, test, and
-                install the highest quality fire-rated doors that save lives and
-                protect property.
+                Established in 2026, Bihari Steel Solutions Private Limited is a leading high-tech enterprise specializing in laser cutting, CNC precision engineering, fire doors, cable trays, and automotive body parts.
               </p>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Our state-of-the-art 100,000 sq ft manufacturing facility in
-                Maharashtra employs cutting-edge technology and is staffed by
-                200+ certified professionals. Every door undergoes rigorous
-                testing to exceed Indian and international fire safety
-                standards.
+                Our state-of-the-art manufacturing facilities in Madhubani and Gopalganj, Bihar utilize advanced laser cutting and high-precision CNC machinery. Operated by a team of certified engineering professionals, we ensure that every batch and component meets rigorous national and international quality standards.
               </p>
               <div className="grid grid-cols-2 gap-6 mb-8">
                 <div className="flex items-start">
@@ -298,12 +291,11 @@ export default function Home() {
             <div className="inline-block bg-gradient-to-r from-orange-600 to-red-600 text-white px-6 py-2 rounded-full text-sm font-bold mb-6 shadow-lg">
               WHY CHOOSE US
             </div>
-            <h2 className="text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-orange-400 via-amber-300 to-orange-500">
-              Why Choose Premium Fire Doors?
+            <h2 className="text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-red-400 via-amber-300 to-red-500">
+              Why Choose Bihari Steel Solutions?
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              We don't just manufacture doors—we engineer safety solutions that
-              protect what matters most
+              We don't just fabricate steel—we engineer high-precision solutions tailored to your complex design requirements.
             </p>
           </div>
 
@@ -427,19 +419,19 @@ export default function Home() {
 
           {/* Bottom Stats Bar */}
           <div className="mt-20 grid md:grid-cols-3 gap-8">
-            <div className="bg-gradient-to-br from-orange-600/20 to-red-600/20 backdrop-blur-sm rounded-2xl p-8 border border-orange-500/30 text-center">
-              <div className="text-5xl font-bold text-orange-400 mb-2">30+</div>
+            <div className="bg-gradient-to-br from-red-600/20 to-gray-600/20 backdrop-blur-sm rounded-2xl p-8 border border-red-500/30 text-center">
+              <div className="text-5xl font-bold text-red-400 mb-2">100%</div>
               <div className="text-gray-300 font-semibold">
-                Years of Excellence
+                CNC Precision & Accuracy
               </div>
             </div>
-            <div className="bg-gradient-to-br from-amber-600/20 to-orange-600/20 backdrop-blur-sm rounded-2xl p-8 border border-amber-500/30 text-center">
-              <div className="text-5xl font-bold text-amber-400 mb-2">50K+</div>
+            <div className="bg-gradient-to-br from-amber-600/20 to-red-600/20 backdrop-blur-sm rounded-2xl p-8 border border-amber-500/30 text-center">
+              <div className="text-5xl font-bold text-amber-400 mb-2">10K+</div>
               <div className="text-gray-300 font-semibold">
-                Doors Installed Nationwide
+                High-Quality Fabrications
               </div>
             </div>
-            <div className="bg-gradient-to-br from-red-600/20 to-orange-600/20 backdrop-blur-sm rounded-2xl p-8 border border-red-500/30 text-center">
+            <div className="bg-gradient-to-br from-red-600/20 to-red-900/20 backdrop-blur-sm rounded-2xl p-8 border border-red-500/30 text-center">
               <div className="text-5xl font-bold text-red-400 mb-2">99.8%</div>
               <div className="text-gray-300 font-semibold">
                 Customer Satisfaction Rate
@@ -618,10 +610,10 @@ export default function Home() {
               Get Free Quote
             </Link>
             <a
-              href="tel:+912240123456"
-              className="bg-white text-orange-600 px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition inline-block border-2 border-white"
+              href="tel:+919015568648"
+              className="bg-white text-red-600 px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition inline-block border-2 border-white"
             >
-              Call: +91 22 4012 3456
+              Call: +91 90155 68648
             </a>
           </div>
         </div>

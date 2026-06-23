@@ -29,7 +29,7 @@ export default function Contact() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-orange-900 via-red-800 to-gray-900 text-white py-16 sm:py-20 md:py-24">
+      <section className="bg-gradient-to-br from-blue-950 via-red-950 to-gray-900 text-white py-16 sm:py-20 md:py-24">
         <div className="container mx-auto px-6 text-center">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Contact Us</h1>
           <p className="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
@@ -60,7 +60,7 @@ export default function Contact() {
                     onChange={(e) =>
                       setFormData({ ...formData, name: e.target.value })
                     }
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-orange-600 focus:ring-2 focus:ring-orange-200"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-900 focus:ring-2 focus:ring-blue-200"
                     placeholder="Rajesh Kumar"
                   />
                 </div>
@@ -74,7 +74,7 @@ export default function Contact() {
                     onChange={(e) =>
                       setFormData({ ...formData, company: e.target.value })
                     }
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-orange-600 focus:ring-2 focus:ring-orange-200"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-900 focus:ring-2 focus:ring-blue-200"
                     placeholder="ABC Constructions Pvt Ltd"
                   />
                 </div>
@@ -89,7 +89,7 @@ export default function Contact() {
                     onChange={(e) =>
                       setFormData({ ...formData, email: e.target.value })
                     }
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-orange-600 focus:ring-2 focus:ring-orange-200"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-900 focus:ring-2 focus:ring-blue-200"
                     placeholder="rajesh@company.in"
                   />
                 </div>
@@ -104,7 +104,7 @@ export default function Contact() {
                     onChange={(e) =>
                       setFormData({ ...formData, phone: e.target.value })
                     }
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-orange-600 focus:ring-2 focus:ring-orange-200"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-900 focus:ring-2 focus:ring-blue-200"
                     placeholder="+91 98765 43210"
                   />
                 </div>
@@ -270,9 +270,9 @@ export default function Contact() {
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <div className="bg-orange-100 p-3 rounded-lg mr-4 flex items-center justify-center">
+                    <div className="bg-red-100 p-3 rounded-lg mr-4 flex items-center justify-center">
                       <svg
-                        className="w-6 h-6 text-orange-600"
+                        className="w-6 h-6 text-red-600"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -300,28 +300,28 @@ export default function Contact() {
               </div>
 
               {/* Regional Offices */}
-              <div className="bg-gradient-to-br from-orange-600 to-red-700 p-8 rounded-2xl shadow-xl text-white">
+              <div className="bg-gradient-to-br from-blue-900 to-red-700 p-8 rounded-2xl shadow-xl text-white">
                 <h3 className="text-3xl font-bold mb-6">Regional Offices</h3>
                 <div className="space-y-4">
                   <div>
                     <p className="font-bold text-lg">North India</p>
-                    <p className="text-orange-100">
+                    <p className="text-red-100">
                       Delhi NCR | Chandigarh | Jaipur
                     </p>
                   </div>
                   <div>
                     <p className="font-bold text-lg">South India</p>
-                    <p className="text-orange-100">
+                    <p className="text-red-100">
                       Bangalore | Chennai | Hyderabad
                     </p>
                   </div>
                   <div>
                     <p className="font-bold text-lg">West India</p>
-                    <p className="text-orange-100">Mumbai | Pune | Ahmedabad</p>
+                    <p className="text-red-100">Mumbai | Pune | Ahmedabad</p>
                   </div>
                   <div>
                     <p className="font-bold text-lg">East India</p>
-                    <p className="text-orange-100">
+                    <p className="text-red-100">
                       Kolkata | Bhubaneswar | Guwahati
                     </p>
                   </div>

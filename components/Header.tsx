@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <header>
       {/* Top Info Bar */}
-      <div className="bg-gradient-to-r from-gray-900 via-gray-800 to-red-950 text-white py-2">
+      <div className="bg-gradient-to-r from-blue-950 via-blue-900 to-red-950 text-white py-2">
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap justify-between items-center text-sm">
             <div className="flex items-center space-x-6">
@@ -52,7 +52,7 @@ export default function Header() {
                 />
               </div>
               <div>
-                <div className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-gray-900 to-red-700 bg-clip-text text-transparent">
+                <div className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-blue-900 to-red-700 bg-clip-text text-transparent">
                   Bihari Steel Solutions
                 </div>
                 <div className="text-[10px] sm:text-xs text-gray-500 font-semibold uppercase tracking-wider">
@@ -65,31 +65,31 @@ export default function Header() {
             <div className="hidden lg:flex items-center space-x-8">
               <Link
                 href="/"
-                className="text-gray-700 hover:text-orange-600 transition font-semibold"
+                className="text-gray-700 hover:text-red-600 transition font-semibold"
               >
                 Home
               </Link>
               <Link
                 href="/about"
-                className="text-gray-700 hover:text-orange-600 transition font-semibold"
+                className="text-gray-700 hover:text-red-600 transition font-semibold"
               >
                 About Us
               </Link>
               <Link
                 href="/products"
-                className="text-gray-700 hover:text-orange-600 transition font-semibold"
+                className="text-gray-700 hover:text-red-600 transition font-semibold"
               >
-                Products
+                Products & Services
               </Link>
               <Link
                 href="/contact"
-                className="text-gray-700 hover:text-orange-600 transition font-semibold"
+                className="text-gray-700 hover:text-red-600 transition font-semibold"
               >
                 Contact
               </Link>
               <Link
                 href="/contact"
-                className="bg-gradient-to-r from-orange-600 to-red-700 text-white px-6 py-2 rounded-full font-bold hover:from-orange-700 hover:to-red-800 transition shadow-lg"
+                className="bg-gradient-to-r from-blue-900 to-red-600 text-white px-6 py-2 rounded-full font-bold hover:from-blue-800 hover:to-red-500 transition shadow-lg"
               >
                 Get a Quote
               </Link>
@@ -98,7 +98,7 @@ export default function Header() {
             {/* Mobile Menu Button */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="lg:hidden text-gray-700 hover:text-orange-600"
+              className="lg:hidden text-gray-700 hover:text-red-600"
             >
               <svg
                 className="w-8 h-8"
@@ -122,31 +122,31 @@ export default function Header() {
               <div className="flex flex-col space-y-3">
                 <Link
                   href="/"
-                  className="text-gray-700 hover:text-orange-600 transition font-semibold py-2"
+                  className="text-gray-700 hover:text-red-600 transition font-semibold py-2"
                 >
                   Home
                 </Link>
                 <Link
                   href="/about"
-                  className="text-gray-700 hover:text-orange-600 transition font-semibold py-2"
+                  className="text-gray-700 hover:text-red-600 transition font-semibold py-2"
                 >
                   About Us
                 </Link>
                 <Link
                   href="/products"
-                  className="text-gray-700 hover:text-orange-600 transition font-semibold py-2"
+                  className="text-gray-700 hover:text-red-600 transition font-semibold py-2"
                 >
-                  Products
+                  Products & Services
                 </Link>
                 <Link
                   href="/contact"
-                  className="text-gray-700 hover:text-orange-600 transition font-semibold py-2"
+                  className="text-gray-700 hover:text-red-600 transition font-semibold py-2"
                 >
                   Contact
                 </Link>
                 <Link
                   href="/contact"
-                  className="bg-orange-600 text-white px-6 py-3 rounded-lg font-bold text-center hover:bg-orange-700 transition"
+                  className="bg-red-600 text-white px-6 py-3 rounded-lg font-bold text-center hover:bg-red-700 transition"
                 >
                   Get a Quote
                 </Link>

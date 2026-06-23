@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       {/* Hero Slider Section */}
-      <section className="relative bg-gradient-to-br from-orange-900 via-orange-700 to-red-900 text-white py-32 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-blue-950 via-blue-900 to-red-950 text-white py-32 overflow-hidden">
         <div className="absolute inset-0">
           <img
             src="https://www.sourcesplash.com/i/random?q=fire-door-safety-industrial"
@@ -35,14 +35,14 @@ export default function Home() {
             className="w-full h-full object-cover opacity-20"
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-br from-orange-900/80 via-orange-700/70 to-red-900/80"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-950/80 via-blue-900/70 to-red-950/80"></div>
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl">
             <div className="inline-block bg-red-600 text-white px-4 py-2 rounded-full text-sm font-bold mb-6 animate-pulse">
               India's Premier High-Precision Fabrication Brand
             </div>
             <h1 className="text-6xl md:text-7xl font-bold mb-6 leading-tight">
-              Laser Cutting & <span className="text-amber-400">Steel Solutions</span>
+              Laser Cutting & <span className="text-red-500">Steel Solutions</span>
             </h1>
             <p className="text-2xl md:text-3xl mb-8 text-gray-200 leading-relaxed">
               CNC Precision, Laser Cutting, and Custom Metal Fabrication.
@@ -51,7 +51,7 @@ export default function Home() {
             <div className="flex flex-wrap gap-4">
               <Link
                 href="/contact"
-                className="bg-amber-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-amber-300 transition shadow-2xl hover:shadow-amber-400/50 inline-block"
+                className="bg-red-600 text-gray-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-red-700 transition shadow-2xl hover:shadow-red-500/50 inline-block"
               >
                 Get Free Consultation
               </Link>
@@ -167,7 +167,7 @@ export default function Home() {
               </div>
               <Link
                 href="/about"
-                className="text-orange-600 font-bold text-lg hover:text-orange-700 inline-flex items-center"
+                className="text-red-600 font-bold text-lg hover:text-red-700 inline-flex items-center"
               >
                 Learn More About Us
                 <span className="ml-2">→</span>
@@ -241,13 +241,13 @@ export default function Home() {
       <section className="py-24 bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white relative overflow-hidden">
         {/* Animated background elements */}
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-20 left-10 w-72 h-72 bg-orange-600 rounded-full filter blur-3xl animate-pulse"></div>
+          <div className="absolute top-20 left-10 w-72 h-72 bg-red-600 rounded-full filter blur-3xl animate-pulse"></div>
           <div className="absolute bottom-20 right-10 w-96 h-96 bg-red-600 rounded-full filter blur-3xl animate-pulse delay-700"></div>
         </div>
 
         <div className="container mx-auto px-6 relative z-10">
           <div className="text-center mb-20">
-            <div className="inline-block bg-gradient-to-r from-orange-600 to-red-600 text-white px-6 py-2 rounded-full text-sm font-bold mb-6 shadow-lg">
+            <div className="inline-block bg-gradient-to-r from-blue-900 to-red-600 text-white px-6 py-2 rounded-full text-sm font-bold mb-6 shadow-lg">
               WHY CHOOSE US
             </div>
             <h2 className="text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-red-400 via-amber-300 to-red-500">
@@ -266,7 +266,7 @@ export default function Home() {
                 title: "Industry Leading",
                 desc: "30+ years of excellence and innovation in fire safety",
                 number: "01",
-                gradient: "from-orange-500 to-red-600",
+                gradient: "from-blue-700 to-red-600",
               },
               {
                 image:
@@ -282,7 +282,7 @@ export default function Home() {
                 title: "Fast Delivery",
                 desc: "On-time delivery guaranteed. Average 2-3 week turnaround",
                 number: "03",
-                gradient: "from-amber-500 to-orange-600",
+                gradient: "from-red-500 to-blue-900",
               },
               {
                 image:
@@ -298,7 +298,7 @@ export default function Home() {
                 title: "Lifetime Warranty",
                 desc: "Comprehensive warranty coverage on all products",
                 number: "05",
-                gradient: "from-orange-500 to-red-500",
+                gradient: "from-blue-700 to-red-500",
               },
               {
                 image:
@@ -306,7 +306,7 @@ export default function Home() {
                 title: "Expert Installation",
                 desc: "Certified technicians ensure proper installation",
                 number: "06",
-                gradient: "from-red-600 to-orange-600",
+                gradient: "from-red-600 to-blue-900",
               },
               {
                 image:
@@ -314,7 +314,7 @@ export default function Home() {
                 title: "24/7 Support",
                 desc: "Emergency hotline and dedicated customer support",
                 number: "07",
-                gradient: "from-amber-600 to-yellow-600",
+                gradient: "from-blue-900 to-blue-700",
               },
               {
                 image:
@@ -322,12 +322,12 @@ export default function Home() {
                 title: "Eco-Friendly",
                 desc: "Sustainable materials and LEED certified options",
                 number: "08",
-                gradient: "from-orange-600 to-red-700",
+                gradient: "from-blue-900 to-red-700",
               },
             ].map((feature, index) => (
               <div
                 key={index}
-                className="group relative bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 hover:scale-105 transition-all duration-500 border border-gray-700 hover:border-orange-500 shadow-2xl hover:shadow-orange-500/20"
+                className="group relative bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 hover:scale-105 transition-all duration-500 border border-gray-700 hover:border-red-600 shadow-2xl hover:shadow-red-500/20"
               >
                 {/* Number Badge */}
                 <div
@@ -345,7 +345,7 @@ export default function Home() {
                   {/* Icon Container */}
                   <div className="mb-6 relative">
                     <div
-                      className={`w-20 h-20 mx-auto rounded-2xl overflow-hidden border-4 border-gray-700 group-hover:border-orange-500 transition-all duration-500 shadow-xl`}
+                      className={`w-20 h-20 mx-auto rounded-2xl overflow-hidden border-4 border-gray-700 group-hover:border-red-600 transition-all duration-500 shadow-xl`}
                     >
                       <img
                         src={feature.image}
@@ -355,12 +355,12 @@ export default function Home() {
                     </div>
                     {/* Decorative Ring */}
                     <div
-                      className={`absolute inset-0 w-20 h-20 mx-auto rounded-2xl border-2 border-dashed border-gray-600 group-hover:border-orange-500 opacity-0 group-hover:opacity-100 scale-125 group-hover:scale-150 transition-all duration-700`}
+                      className={`absolute inset-0 w-20 h-20 mx-auto rounded-2xl border-2 border-dashed border-gray-600 group-hover:border-red-600 opacity-0 group-hover:opacity-100 scale-125 group-hover:scale-150 transition-all duration-700`}
                     ></div>
                   </div>
 
                   {/* Content */}
-                  <h3 className="text-xl font-bold mb-3 text-white group-hover:text-orange-400 transition-colors duration-300">
+                  <h3 className="text-xl font-bold mb-3 text-white group-hover:text-red-400 transition-colors duration-300">
                     {feature.title}
                   </h3>
                   <p className="text-gray-400 text-sm leading-relaxed group-hover:text-gray-300 transition-colors duration-300">
@@ -384,8 +384,8 @@ export default function Home() {
                 CNC Precision & Accuracy
               </div>
             </div>
-            <div className="bg-gradient-to-br from-amber-600/20 to-red-600/20 backdrop-blur-sm rounded-2xl p-8 border border-amber-500/30 text-center">
-              <div className="text-5xl font-bold text-amber-400 mb-2">10K+</div>
+            <div className="bg-gradient-to-br from-amber-600/20 to-red-600/20 backdrop-blur-sm rounded-2xl p-8 border border-red-500/30 text-center">
+              <div className="text-5xl font-bold text-red-500 mb-2">10K+</div>
               <div className="text-gray-300 font-semibold">
                 High-Quality Fabrications
               </div>
@@ -404,7 +404,7 @@ export default function Home() {
       <section className="py-24 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <div className="inline-block bg-orange-100 text-orange-600 px-4 py-2 rounded-full text-sm font-bold mb-4">
+            <div className="inline-block bg-red-100 text-red-600 px-4 py-2 rounded-full text-sm font-bold mb-4">
               HOW WE WORK
             </div>
             <h2 className="text-5xl font-bold text-gray-800 mb-6">
@@ -443,7 +443,7 @@ export default function Home() {
                 key={index}
                 className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition relative"
               >
-                <div className="absolute -top-6 left-8 bg-gradient-to-br from-orange-600 to-red-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-lg shadow-lg">
+                <div className="absolute -top-6 left-8 bg-gradient-to-br from-blue-900 to-red-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-lg shadow-lg">
                   {process.step}
                 </div>
                 <div className="mt-8">
@@ -461,7 +461,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <Link
               href="/contact"
-              className="bg-gradient-to-r from-orange-600 to-red-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:from-orange-700 hover:to-red-700 transition shadow-xl inline-block"
+              className="bg-gradient-to-r from-blue-900 to-red-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:from-blue-800 hover:to-red-500 transition shadow-xl inline-block"
             >
               Start Your Project Today
             </Link>
@@ -473,7 +473,7 @@ export default function Home() {
       <section className="py-24 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <div className="inline-block bg-orange-100 text-orange-600 px-4 py-2 rounded-full text-sm font-bold mb-4">
+            <div className="inline-block bg-red-100 text-red-600 px-4 py-2 rounded-full text-sm font-bold mb-4">
               TESTIMONIALS
             </div>
             <h2 className="text-5xl font-bold text-gray-800 mb-6">
@@ -482,8 +482,8 @@ export default function Home() {
           </div>
 
           <div className="max-w-4xl mx-auto">
-            <div className="bg-gradient-to-br from-orange-50 to-gray-50 p-12 rounded-2xl shadow-xl">
-              <div className="text-6xl mb-6 text-orange-600">"</div>
+            <div className="bg-gradient-to-br from-blue-50 to-gray-50 p-12 rounded-2xl shadow-xl">
+              <div className="text-6xl mb-6 text-red-600">"</div>
               <p className="text-2xl text-gray-700 mb-8 leading-relaxed italic">
                 {testimonials[activeTestimonial].text}
               </p>
@@ -492,7 +492,7 @@ export default function Home() {
                   <p className="font-bold text-xl text-gray-800">
                     {testimonials[activeTestimonial].name}
                   </p>
-                  <p className="text-orange-600">
+                  <p className="text-red-600">
                     {testimonials[activeTestimonial].company}
                   </p>
                 </div>
@@ -501,7 +501,7 @@ export default function Home() {
                     <button
                       key={index}
                       onClick={() => setActiveTestimonial(index)}
-                      className={`w-3 h-3 rounded-full transition ${index === activeTestimonial ? "bg-orange-600 w-8" : "bg-gray-300"}`}
+                      className={`w-3 h-3 rounded-full transition ${index === activeTestimonial ? "bg-red-600 w-8" : "bg-gray-300"}`}
                     />
                   ))}
                 </div>
@@ -510,7 +510,7 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-12">
-            <div className="flex justify-center gap-2 text-amber-400 text-3xl mb-4">
+            <div className="flex justify-center gap-2 text-red-500 text-3xl mb-4">
               ★★★★★
             </div>
             <p className="text-gray-600 font-semibold">
@@ -552,7 +552,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 bg-gradient-to-r from-orange-600 to-red-700 text-white">
+      <section className="py-24 bg-gradient-to-r from-blue-900 to-red-700 text-white">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-5xl font-bold mb-6">
             Ready to Enhance Your Fire Safety?
@@ -564,7 +564,7 @@ export default function Home() {
           <div className="flex flex-wrap justify-center gap-4">
             <Link
               href="/contact"
-              className="bg-amber-400 text-gray-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-amber-300 transition shadow-2xl inline-block"
+              className="bg-red-600 text-gray-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-red-700 transition shadow-2xl inline-block"
             >
               Get Free Quote
             </Link>

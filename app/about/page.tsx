@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-orange-900 via-red-900 to-orange-900 text-white py-16 sm:py-20 md:py-24">
+      <section className="bg-gradient-to-br from-blue-950 via-red-950 to-blue-950 text-white py-16 sm:py-20 md:py-24">
         <div className="container mx-auto px-6 text-center">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-fade-in">
             About Bihari Steel Solutions
@@ -109,7 +109,7 @@ export default function About() {
           </h2>
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="bg-orange-100 w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 overflow-hidden">
+              <div className="bg-red-100 w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 overflow-hidden">
                 <img
                   src="https://www.sourcesplash.com/i/random?q=safety-protection-security"
                   alt="Safety"
@@ -154,7 +154,7 @@ export default function About() {
               </p>
             </div>
             <div className="text-center">
-              <div className="bg-orange-100 w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 overflow-hidden">
+              <div className="bg-red-100 w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 overflow-hidden">
                 <img
                   src="https://www.sourcesplash.com/i/random?q=trust-integrity-handshake"
                   alt="Integrity"
@@ -182,7 +182,7 @@ export default function About() {
             Thousands of leading Indian organizations rely on our fire safety solutions
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow border-t-4 border-orange-600">
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow border-t-4 border-red-600">
               <div className="text-5xl mb-4">🏭</div>
               <h3 className="text-2xl font-bold text-gray-800 mb-4">
                 Made in India Excellence
@@ -191,7 +191,7 @@ export default function About() {
                 100% manufactured in our Bihar facilities with strict quality control, supporting the Make in India initiative while delivering world-class products.
               </p>
             </div>
-            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow border-t-4 border-amber-600">
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow border-t-4 border-red-600">
               <div className="text-5xl mb-4">🤝</div>
               <h3 className="text-2xl font-bold text-gray-800 mb-4">
                 Local Support & Service
@@ -209,7 +209,7 @@ export default function About() {
                 Premium quality at competitive prices. No import duties or international shipping costs. Flexible payment terms for Indian businesses.
               </p>
             </div>
-            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow border-t-4 border-orange-600">
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow border-t-4 border-red-600">
               <div className="text-5xl mb-4">📋</div>
               <h3 className="text-2xl font-bold text-gray-800 mb-4">
                 Indian Standards Compliance
@@ -218,7 +218,7 @@ export default function About() {
                 All products certified to BIS, NBC, and IS:3614 standards. Expert knowledge of Indian building codes and fire safety regulations.
               </p>
             </div>
-            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow border-t-4 border-amber-600">
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow border-t-4 border-red-600">
               <div className="text-5xl mb-4">🚚</div>
               <h3 className="text-2xl font-bold text-gray-800 mb-4">
                 Fast Pan-India Delivery
@@ -265,9 +265,9 @@ export default function About() {
             ].map((cert, index) => (
               <div
                 key={index}
-                className="bg-orange-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow text-center border-2 border-orange-200"
+                className="bg-blue-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow text-center border-2 border-red-200"
               >
-                <div className="text-3xl mb-3 text-orange-600">✓</div>
+                <div className="text-3xl mb-3 text-red-600">✓</div>
                 <p className="font-semibold text-gray-800">{cert}</p>
               </div>
             ))}
@@ -276,7 +276,7 @@ export default function About() {
       </section>
 
       {/* Manufacturing Facilities */}
-      <section className="py-20 bg-gradient-to-br from-orange-50 to-amber-50">
+      <section className="py-20 bg-gradient-to-br from-blue-50 to-red-50">
         <div className="container mx-auto px-6">
           <h2 className="text-5xl font-bold text-center text-gray-800 mb-16">
             State-of-the-Art Facilities
@@ -288,31 +288,31 @@ export default function About() {
               </h3>
               <ul className="space-y-4">
                 <li className="flex items-start">
-                  <span className="text-orange-600 font-bold mr-3">•</span>
+                  <span className="text-red-600 font-bold mr-3">•</span>
                   <span className="text-gray-600">
                     State-of-the-art climate-controlled manufacturing facilities in Madhubani and Gopalganj, Bihar
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-orange-600 font-bold mr-3">•</span>
+                  <span className="text-red-600 font-bold mr-3">•</span>
                   <span className="text-gray-600">
                     Advanced CNC cutting and precision welding equipment
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-orange-600 font-bold mr-3">•</span>
+                  <span className="text-red-600 font-bold mr-3">•</span>
                   <span className="text-gray-600">
                     Automated powder coating and finishing lines
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-orange-600 font-bold mr-3">•</span>
+                  <span className="text-red-600 font-bold mr-3">•</span>
                   <span className="text-gray-600">
                     On-site fire testing laboratory
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-orange-600 font-bold mr-3">•</span>
+                  <span className="text-red-600 font-bold mr-3">•</span>
                   <span className="text-gray-600">
                     Capacity to produce 500+ doors per week
                   </span>

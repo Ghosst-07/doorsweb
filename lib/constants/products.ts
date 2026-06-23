@@ -19,7 +19,7 @@ export const products: Product[] = [
       "Weatherproof and fire-resistant core options"
     ],
     applications: "Factory entrances, commercial facilities, security checkpoints, and residences",
-    mainImage: "/catalog_metal_door.jpg"
+    mainImage: "/catalog_metal_door.png"
   },
   {
     category: "Steel Almirah",

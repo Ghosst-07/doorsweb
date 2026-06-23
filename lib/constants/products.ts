@@ -9,93 +9,94 @@ export interface Product {
 
 export const products: Product[] = [
   {
-    category: "Steel Fire Rated Doors",
-    rating: "60-120 minutes",
-    description: "High-performance steel fire doors tested in accordance with international standards. Engineered with premium core materials for maximum protection.",
+    category: "Metal Door",
+    rating: "Safety & Durability",
+    description: "High quality metal doors designed for maximum safety, security, and long-term durability. Built for heavy-duty industrial, commercial, and residential use.",
     features: [
-      "Fire Rating: 60, 90, and 120 minutes (BS: 476 & IS: 3614 certified)",
-      "Core Choices: Ceramic Wool, Rockwool, or Honeycomb",
-      "Sheet Thickness: Customizable from 0.8 to 1.6 mm",
-      "Structure: 1.2–2.0 mm thick pressed steel frame",
-      "Finish: High-quality paint or powder coating options",
-      "Hardware: Vision panels, panic bars, and sturdy hinges available"
+      "High quality metal doors for safety and durability",
+      "Suitable for industrial, commercial & residential use",
+      "Robust hinges and locking compatibility",
+      "Weatherproof and fire-resistant core options"
     ],
-    applications: "Commercial buildings, hospitals, schools, and industrial facilities",
-    mainImage: "/Users/saad/.gemini/antigravity/brain/a363f2b3-aabe-449e-93a9-24f9772e9866/steel_fire_door_main_1776759212057.png"
+    applications: "Factory entrances, commercial facilities, security checkpoints, and residences",
+    mainImage: "/catalog_metal_door.jpg"
   },
   {
-    category: "General Metal Doors",
-    rating: "Standard & Heavy Duty",
-    description: "Durable GI steel doors designed for high-traffic environments, offering superior strength and longevity compared to traditional wooden doors.",
+    category: "Steel Almirah",
+    rating: "Premium Quality Storage",
+    description: "Strong, spacious, and highly secure steel almirahs. Designed to meet the storage needs of offices, industrial facilities, and modern homes.",
     features: [
-      "Material: G.I Steel for maximum durability",
-      "Hollow Metal Pressed Steel (HMPS) construction",
-      "Available in Single and Double leaf configurations",
-      "Rust-resistant powder coating finish",
-      "Multiple color and texture options available",
-      "Ideal for back-of-house and utility areas"
+      "Strong & spacious steel almirah for office, industrial & home use",
+      "Available in various sizes and specifications",
+      "Multi-bend heavy-duty key lock mechanism",
+      "Adjustable shelving layout for optimized space"
     ],
-    applications: "Industrial facilities, warehouses, parking structures, and utilities",
-    mainImage: "/Users/saad/.gemini/antigravity/brain/a363f2b3-aabe-449e-93a9-24f9772e9866/general_metal_door_main_1776759388070.png"
+    applications: "Corporate offices, locker rooms, warehouses, and homes",
+    mainImage: "/catalog_steel_almirah.jpg"
   },
   {
-    category: "Acoustic Metal Doors",
-    rating: "Premium Sound Insulation",
-    description: "Specialized noise-reduction doors featuring multi-layered insulation specifically designed for recording studios, theaters, and hospitals.",
+    category: "Cable Tray",
+    rating: "Efficient Cable Management",
+    description: "High strength, load-bearing cable trays engineered for neat and efficient cable routing. Available in perforated and ladder structures.",
     features: [
-      "High sound attenuation properties",
-      "Powder coating finish for premium look",
-      "Airtight gasket sealing system",
-      "Heavy-duty construction for acoustic damping",
-      "Customizable STC ratings",
-      "Seamless integration with acoustic treatments"
+      "High strength cable trays for efficient cable management",
+      "Available in various types, widths, and loading capacities",
+      "Corrosion-resistant galvanized iron (GI) or powder coated finishes",
+      "Easy alignment and rapid installation design"
     ],
-    applications: "Recording studios, theaters, hospitals, and conference halls",
-    mainImage: "/Users/saad/.gemini/antigravity/brain/a363f2b3-aabe-449e-93a9-24f9772e9866/acoustic_door_main_1776759168642.png"
+    applications: "Power rooms, industrial manufacturing units, server racks, and utilities",
+    mainImage: "/catalog_cable_tray.jpg"
   },
   {
-    category: "Electrical Shaft Doors",
-    rating: "Access Control Ready",
-    description: "Compact and secure doors designed specifically for electrical shafts and service rooms, providing easy access while maintaining safety.",
+    category: "Laser Cutting",
+    rating: "CNC High Precision",
+    description: "Precision CNC fiber laser cutting services for MS, SS, GI, Aluminium, and other metal sheets. Delivers high accuracy and smooth edge finishes.",
     features: [
-      "Designed for service room and shaft access",
-      "Internal and external locking mechanisms",
-      "Powder coating for aesthetic matching",
-      "Durable steel construction",
-      "Easy installation in recessed areas",
-      "Low maintenance ventilation options available"
+      "Precision laser cutting services for MS, SS, GI, Aluminium & other metal sheets",
+      "High accuracy & smooth, burr-free finish",
+      "Custom shape programming and prototype development",
+      "Fast production turnaround with minimal sheet waste"
     ],
-    applications: "Commercial panels, electrical rooms, and service shafts",
-    mainImage: "/Users/saad/.gemini/antigravity/brain/a363f2b3-aabe-449e-93a9-24f9772e9866/electrical_shaft_door_main_1776759266432.png"
+    applications: "Custom parts fabrication, automotive bracketry, decorative screens, and panels",
+    mainImage: "/catalog_laser_cutting.jpg"
   },
   {
-    category: "Full Glazed GI Steel Fire Doors",
-    rating: "Visually Secure Protection",
-    description: "Aesthetic glass-integrated steel doors providing maximum visibility without compromising on fire safety standards.",
+    category: "Bending Job Work",
+    rating: "CNC Press Brake Accuracy",
+    description: "Advanced CNC press brake bending services for multiple metals. Provides perfect angles and repeatable quality for complex part designs.",
     features: [
-      "Fire-rated glass integration",
-      "G.I Steel frame with powder coating finish",
-      "Single and Double leaf options",
-      "High-clarity vision panels",
-      "Heat-resistant glass technology",
-      "Combines aesthetics with core fire protection"
+      "CNC press brake bending for MS, SS, Aluminium & other metals",
+      "High accuracy with perfect, repeatable bending quality",
+      "Multi-bend tooling for custom enclosures and brackets",
+      "Suitable for both thick structural plates and thin sheet metal"
     ],
-    applications: "Corridors, office partitions, and high-end commercial entries",
-    mainImage: "/Users/saad/.gemini/antigravity/brain/a363f2b3-aabe-449e-93a9-24f9772e9866/glazed_fire_door_main_1776759512486.png"
+    applications: "Control panels, enclosures, structural mounts, and custom parts",
+    mainImage: "/catalog_bending.jpg"
   },
   {
-    category: "Clean Room Doors",
-    rating: "ISO Standard Compliant",
-    description: "Precision-engineered flush doors for sterile environments, featuring non-particle shedding materials and airtight seals.",
+    category: "Truck Body Work",
+    rating: "Heavy-Duty Fabrication",
+    description: "Heavy-duty truck body manufacturing customized as per carrier specs and client needs. Optimized for maximum structural strength and payload durability.",
     features: [
-      "Flush surface design for easy cleaning",
-      "Airtight gasket seals for contamination control",
-      "Non-corrosive powder coating finish",
-      "Impact resistant construction",
-      "ISO compliant for pharmaceutical use",
-      "Customizable dimensions for lab environments"
+      "All types of truck body manufacturing as per customer requirements",
+      "High strength, durable & customized fabrication solutions",
+      "Reinforced frame structures to handle massive loading",
+      "Protective anti-rust primers and paints"
     ],
-    applications: "Pharmaceutical manufacturing, biotech labs, and electronics assembly",
-    mainImage: "/Users/saad/.gemini/antigravity/brain/a363f2b3-aabe-449e-93a9-24f9772e9866/clean_room_door_main_1776759327637.png"
+    applications: "Cargo haulage trucks, dump trucks, tippers, and containers",
+    mainImage: "/catalog_truck_body.jpg"
+  },
+  {
+    category: "Work Trolley",
+    rating: "Heavy Material Handling",
+    description: "Strong, durable work trolleys built to withstand heavy-duty material transport in workshops, warehouses, and assembly environments.",
+    features: [
+      "Strong & durable work trolley for material handling",
+      "Ideal for industrial, workshop & warehouse use",
+      "Heavy-duty swivel casters with integrated brakes",
+      "Sturdy steel frame design with multi-shelf utility"
+    ],
+    applications: "Maintenance bays, factory assembly floors, and warehouse inventory management",
+    mainImage: "/catalog_work_trolley.jpg"
   }
 ];

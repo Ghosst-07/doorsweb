@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import { products } from "@/lib/constants/products";
 
 export default function Home() {
   const [activeTestimonial, setActiveTestimonial] = useState(0);
@@ -180,88 +181,46 @@ export default function Home() {
       <section className="py-24 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <div className="inline-block bg-orange-100 text-orange-600 px-4 py-2 rounded-full text-sm font-bold mb-4">
-              OUR PRODUCTS
+            <div className="inline-block bg-red-100 text-red-600 px-4 py-2 rounded-full text-sm font-bold mb-4">
+              OUR PRODUCTS & SERVICES
             </div>
             <h2 className="text-5xl font-bold text-gray-800 mb-6">
-              Comprehensive Fire Door Solutions
+              Engineering Precision Steel Solutions
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              From steel fire doors to specialized acoustic and lead-lined
-              options, we offer the complete range of safety doors
+              From precision CNC laser cutting and bending services to high-quality metal doors, cable trays, almirahs, and heavy-duty truck body fabrication.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              {
-                name: "Steel Fire Rated Doors",
-                rating: "60-180 min",
-                desc: "Heavy-duty steel construction with superior fire resistance. UL Listed and NFPA certified.",
-                image:
-                  "https://5.imimg.com/data5/SELLER/Default/2024/6/431165275/LG/AU/ZF/45849736/non-fire-rated-steel-door.jpg",
-              },
-              {
-                name: "Wooden Fire Rated Doors",
-                rating: "30-90 min",
-                desc: "Elegant wooden designs meeting fire safety standards without compromising aesthetics.",
-                image:
-                  "https://www.bhawanifire.com/bhawain-img/wooden-fire-1.png",
-              },
-              {
-                name: "Lead Lined Doors",
-                rating: "X-Ray Protection",
-                desc: "Radiation protection for medical and industrial facilities. Multiple lead equivalency options.",
-                image:
-                  "https://cpimg.tistatic.com/7266444/b/1/lead-lined-door.jpg",
-              },
-              {
-                name: "General Metal Doors",
-                rating: "High Traffic",
-                desc: "Durable metal doors designed for commercial and industrial high-traffic applications.",
-                image:
-                  "https://ahlada.com/wp-content/uploads/2023/11/commercial-product-img-02-1.jpg",
-              },
-              {
-                name: "Clean Room Doors",
-                rating: "ISO Certified",
-                desc: "Precision-engineered for controlled environments. Pharmaceutical and biotech approved.",
-                image:
-                  "https://www.steengipharm.com/wp-content/uploads/2022/11/DSC_02632-cut-1-1024x889.png",
-              },
-              {
-                name: "Acoustic Doors",
-                rating: "STC 45-55",
-                desc: "Superior sound attenuation for studios, hospitals, and noise-sensitive environments.",
-                image:
-                  "https://www.sourcesplash.com/i/random?q=soundproof-studio-door",
-              },
-            ].map((product, index) => (
+            {products.map((product, index) => (
               <div
                 key={index}
-                className="group bg-gradient-to-br from-gray-50 to-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200 hover:border-orange-600 overflow-hidden"
+                className="group bg-gradient-to-br from-gray-50 to-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200 hover:border-red-600 overflow-hidden"
               >
-                <img
-                  src={product.image}
-                  alt={product.name}
-                  className="w-full h-48 object-cover"
-                />
+                <div className="h-48 overflow-hidden bg-gray-100 flex items-center justify-center">
+                  <img
+                    src={product.mainImage}
+                    alt={product.category}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
                 <div className="p-8">
                   <h3 className="text-2xl font-bold text-gray-800 mb-2">
-                    {product.name}
+                    {product.category}
                   </h3>
-                  <div className="inline-block bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm font-semibold mb-4">
+                  <div className="inline-block bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm font-semibold mb-4">
                     {product.rating}
                   </div>
-                  <p className="text-gray-600 mb-6 leading-relaxed">
-                    {product.desc}
+                  <p className="text-gray-600 mb-6 leading-relaxed line-clamp-3">
+                    {product.description}
                   </p>
-                  <button className="text-orange-600 font-bold group-hover:text-orange-700 inline-flex items-center">
+                  <Link href="/products" className="text-red-600 font-bold group-hover:text-red-700 inline-flex items-center">
                     Learn More
                     <span className="ml-2 group-hover:ml-4 transition-all">
                       →
                     </span>
-                  </button>
+                  </Link>
                 </div>
               </div>
             ))}
@@ -270,9 +229,9 @@ export default function Home() {
           <div className="text-center mt-12">
             <Link
               href="/products"
-              className="bg-gradient-to-r from-orange-600 to-red-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:from-orange-700 hover:to-red-700 transition shadow-xl inline-block"
+              className="bg-gradient-to-r from-red-600 to-red-800 text-white px-10 py-4 rounded-full font-bold text-lg hover:from-red-700 hover:to-red-900 transition shadow-xl inline-block"
             >
-              View All Products
+              View All Products & Services
             </Link>
           </div>
         </div>

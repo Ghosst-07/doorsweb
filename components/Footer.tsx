@@ -20,32 +20,7 @@ export default function Footer() {
             <div className="text-xs text-red-500 font-mono mb-4">
               CIN: U25111BR2026PTC085757
             </div>
-            <div className="flex space-x-4">
-              <a
-                href="#"
-                className="bg-orange-600 p-2 rounded hover:bg-orange-700 transition"
-              >
-                F
-              </a>
-              <a
-                href="#"
-                className="bg-orange-600 p-2 rounded hover:bg-orange-700 transition"
-              >
-                L
-              </a>
-              <a
-                href="#"
-                className="bg-orange-600 p-2 rounded hover:bg-orange-700 transition"
-              >
-                T
-              </a>
-              <a
-                href="#"
-                className="bg-orange-600 p-2 rounded hover:bg-orange-700 transition"
-              >
-                I
-              </a>
-            </div>
+            {/* Social links removed */}
           </div>
 
           {/* Quick Links */}

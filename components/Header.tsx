@@ -30,20 +30,9 @@ export default function Header() {
               </a>
             </div>
             <div className="flex items-center space-x-4">
-              <span className="hidden lg:inline text-red-200">
+              <span className="text-red-200">
                 🕒 Mon-Sat: 9AM-7PM
               </span>
-              <div className="flex space-x-3">
-                <a href="#" className="hover:text-red-200 transition">
-                  Facebook
-                </a>
-                <a href="#" className="hover:text-red-200 transition">
-                  LinkedIn
-                </a>
-                <a href="#" className="hover:text-red-200 transition">
-                  Twitter
-                </a>
-              </div>
             </div>
           </div>
         </div>

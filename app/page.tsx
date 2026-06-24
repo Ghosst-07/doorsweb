@@ -2,6 +2,8 @@
 import { useState } from "react";
 import Link from "next/link";
 import { products } from "@/lib/constants/products";
+import HeroBackground from "@/components/HeroBackground";
+
 
 export default function Home() {
   const [activeTestimonial, setActiveTestimonial] = useState(0);
@@ -28,14 +30,8 @@ export default function Home() {
     <main className="min-h-screen">
       {/* Hero Slider Section */}
       <section className="relative bg-gradient-to-br from-blue-950 via-blue-900 to-red-950 text-white py-32 overflow-hidden">
-        <div className="absolute inset-0">
-          <img
-            src="https://www.sourcesplash.com/i/random?q=fire-door-safety-industrial"
-            alt="Fire Safety Background"
-            className="w-full h-full object-cover opacity-20"
-          />
-        </div>
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-950/80 via-blue-900/70 to-red-950/80"></div>
+        {/* Animated Laser-Cut Steel Vortex Background */}
+        <HeroBackground />
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl">
             <div className="inline-block bg-red-600 text-white px-4 py-2 rounded-full text-sm font-bold mb-6 animate-pulse">
